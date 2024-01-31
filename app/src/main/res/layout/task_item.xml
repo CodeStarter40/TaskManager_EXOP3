@@ -30,6 +30,17 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Needs to clean the bathrooms" />
 
+        <TextView
+            android:id="@+id/timeLeft"
+            android:layout_width="114dp"
+            android:layout_height="47dp"
+            android:layout_marginEnd="16dp"
+            android:text="TimeLeft"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/task_description" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>
