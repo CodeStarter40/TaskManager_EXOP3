@@ -35,11 +35,23 @@
             android:layout_width="114dp"
             android:layout_height="47dp"
             android:layout_marginEnd="16dp"
-            android:text="TimeLeft"
+            tools:text="Temps limite: xx/xx/xxxx"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/task_description" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progress_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:progress="50" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
