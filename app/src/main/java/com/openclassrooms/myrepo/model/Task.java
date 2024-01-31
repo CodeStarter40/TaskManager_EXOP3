@@ -20,7 +20,7 @@ public class Task {
     public Task(String description, Date currentDate) {
 
         this.description = description;
-        this.dueTime = dueTime;
+        this.dueTime = currentDate;
     }
 
     /**
